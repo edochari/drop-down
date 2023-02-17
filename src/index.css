@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.drop-down-container{
+  background-color:aquamarine;
+  display:flex;
+  margin:auto;
+  margin-top:120px;
+  flex-direction: column;
+  height:300px;
+  width:400px;
+  border:2px solid black;
+}
+
+.dropdown{
+  display:inline-block;
+  position:relative;
+  margin:auto;
+  margin-top: 30px;
+
+}
+
+.dropdown:hover .options{
+  display:block;
+}
+.options{
+  display:none;
+  position:absolute;
+  overflow:auto;
+  margin:auto;
+  background-color: white;
+  
+}
+
+.button{
+  margin-top:20px;
+}
+.dropdown span:hover{
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+.item{
+  display:block;
+}
+#text{
+  margin:auto;
+  font-weight: 700;
+}
+.drop-down span{
+  background-color: white;
+  padding: 5px;
+}
+.options-clicked{
+  display:none;
+}
