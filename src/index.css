@@ -41,6 +41,7 @@ code {
   position:absolute;
   overflow:auto;
   margin:auto;
+  cursor: pointer;
   background-color: white;
   
 }
