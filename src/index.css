@@ -42,7 +42,7 @@ code {
   overflow:auto;
   margin:auto;
   cursor: pointer;
-  background-color: white;
+  background-color:gray;
   
 }
 /* To display options when we hover */
@@ -50,10 +50,8 @@ code {
   display:block;
 }
 
-/* Styling of button which is hovered */
-.button{
-  margin-top:20px;
-}
+
+
 
 .dropdown span:hover{
   color: #FFFFFF;
@@ -74,7 +72,13 @@ code {
   padding: 5px;
 }
 
-/* Removing options after any item is clicked */
-.options-clicked{
-  display:none;
+.button{
+  border:none;
+  background-color:aquamarine;
+
+}
+
+.dropdown-box{
+  border:2px solid black;
+  
 }
